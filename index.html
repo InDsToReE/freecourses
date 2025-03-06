@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Courses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-500 to-teal-400 text-white py-12 shadow-lg">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold mb-4">Free Courses</h1>
+      <small class="text-lg italic tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
+  Berbuat Baiklah Kepada Sesama
+</small>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Course Card: HTML -->
+        <a href="/html" class="block">
+          <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://i.ibb.co.com/67gYB1g3/download-removebg-preview.png" alt="HTML Icon" class="w-20 h-20 mx-auto mb-4">
+            <h3 class="text-2xl font-semibold text-blue-500 mb-2 text-center">HTML</h3>
+            <p class="text-center text-gray-600">Pelajari dasar-dasar HTML untuk membuat struktur website yang semantik.</p>
+          </div>
+        </a>
+        <!-- Course Card: CSS -->
+        <a href="/css" class="block">
+          <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://i.ibb.co.com/8n5h1L05/5968242-removebg-preview.png" alt="CSS Icon" class="w-20 h-20 mx-auto mb-4">
+            <h3 class="text-2xl font-semibold text-blue-500 mb-2 text-center">CSS</h3>
+            <p class="text-center text-gray-600">Pelajari cara mendesain website dengan style modern dan responsif.</p>
+          </div>
+        </a>
+        <!-- Course Card: JavaScript -->
+        <a href="/javascript" class="block">
+          <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://i.ibb.co.com/V0br0Pzz/images-1-removebg-preview.png" alt="JavaScript Icon" class="w-20 h-20 mx-auto mb-4">
+            <h3 class="text-2xl font-semibold text-blue-500 mb-2 text-center">JavaScript</h3>
+            <p class="text-center text-gray-600">Pelajari cara membuat website interaktif dan dinamis dengan JavaScript.</p>
+          </div>
+        </a>
+        <!-- Course Card: PHP -->
+        <a href="/php" class="block">
+          <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+            <img src="https://i.ibb.co.com/hJswBgg2/images-removebg-preview.png" alt="PHP Icon" class="w-20 h-20 mx-auto mb-4">
+            <h3 class="text-2xl font-semibold text-blue-500 mb-2 text-center">PHP</h3>
+            <p class="text-center text-gray-600">Pelajari cara mengembangkan website dinamis dan backend yang powerful dengan PHP.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+<!-- Footer dengan overflow-hidden untuk mencegah konten keluar -->
+<footer class="bg-gray-800 py-10 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <h2 class="text-center text-white text-2xl mb-6">Frameworks</h2>
+    
+    <!-- Swiper Slider: Baris Atas (Swipe ke kanan / default) -->
+    <div class="swiper swiper-top mb-8">
+      <div class="swiper-wrapper">
+        <!-- Setiap slide berupa card dengan ukuran lebih kecil dan margin horizontal -->
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/67gYB1g3/download-removebg-preview.png" alt="Bootstrap" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/8n5h1L05/5968242-removebg-preview.png" alt="React" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/V0br0Pzz/images-1-removebg-preview.png" alt="Vue" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/hJswBgg2/images-removebg-preview.png" alt="Laravel" class="w-20">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Swiper Slider: Baris Bawah (Swipe ke kiri) dengan offset ke kiri -->
+    <div class="swiper swiper-bottom transform -translate-x-4">
+      <div class="swiper-wrapper">
+        <!-- Slide serupa dengan yang atas -->
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/67gYB1g3/download-removebg-preview.png" alt="Bootstrap" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/8n5h1L05/5968242-removebg-preview.png" alt="React" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/V0br0Pzz/images-1-removebg-preview.png" alt="Vue" class="w-20">
+          </div>
+        </div>
+        <div class="swiper-slide flex justify-center">
+          <div class="bg-white rounded-lg shadow p-2 mx-2">
+            <img src="https://i.ibb.co.com/hJswBgg2/images-removebg-preview.png" alt="Laravel" class="w-20">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  // Slider baris atas (default swipe ke kanan)
+  const swiperTop = new Swiper(".swiper-top", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      640: { slidesPerView: 4, spaceBetween: 20 },
+      768: { slidesPerView: 5, spaceBetween: 30 },
+      1024: { slidesPerView: 6, spaceBetween: 40 },
+    },
+  });
+
+  // Slider baris bawah dengan reverse autoplay (swipe ke kiri)
+  const swiperBottom = new Swiper(".swiper-bottom", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      reverseDirection: true, // Membuat autoplay bergerak ke kiri
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      640: { slidesPerView: 4, spaceBetween: 20 },
+      768: { slidesPerView: 5, spaceBetween: 30 },
+      1024: { slidesPerView: 6, spaceBetween: 40 },
+    },
+  });
+</script>
+
+</body>
+</html>
+
+  
